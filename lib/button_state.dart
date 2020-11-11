@@ -5,7 +5,7 @@ class ButtonState extends ChangeNotifier {
   Color _buttonOneColor = Colors.white;
   Color _buttonTwoColor = Colors.white;
   Color _buttonThreeColor = Colors.white;
-  String _textString = 'Selected Button';
+  String _textString = 'None';
 
   Color get buttonOneColor => _buttonOneColor;
   Color get buttonTwoColor => _buttonTwoColor;

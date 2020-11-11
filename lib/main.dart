@@ -37,10 +37,10 @@ class MainPage extends StatelessWidget {
           children: <Widget>[
             Text(
               'Selected Button: ${Provider.of<ButtonState>(context).textString}',
-              style: TextStyle(fontSize: 40, color: Colors.white),
+              style: TextStyle(fontSize: 30, color: Colors.white),
             ),
             SizedBox(
-              height: 20,
+              height: 50,
             ),
             RaisedButton(
               onPressed: () {
